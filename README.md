@@ -32,12 +32,6 @@ Các nội dung chính được thực hiện trong repository gồm:
 
 Bên cạnh việc hoàn thành các bài tập trên lớp, repository hướng đến việc phát triển những project có khả năng giải quyết các vấn đề thực tế. Mỗi project sẽ tập trung vào việc áp dụng máy học để phân tích dữ liệu, dự đoán kết quả hoặc hỗ trợ ra quyết định.
 
-Các project có thể được mở rộng theo những hướng như:
-
-- Phân tích dữ liệu trong lĩnh vực thủy lợi và tài nguyên nước.
-- Dự báo các hiện tượng hoặc chỉ số dựa trên dữ liệu lịch sử.
-- Phân loại và phát hiện các mẫu dữ liệu bất thường.
-- Xây dựng công cụ hỗ trợ phân tích và ra quyết định.
 
 ## Công nghệ sử dụng
 
