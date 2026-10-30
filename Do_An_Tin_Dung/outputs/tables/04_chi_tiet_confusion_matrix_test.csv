@@ -1,0 +1,5 @@
+﻿Mo_Hinh,TN_Duyet_Dung_Khach_Tot,FP_Tu_Choi_Nham_Khach_Tot,FN_Bo_Lot_No_Xau,TP_Bat_Trung_No_Xau,Ty_Le_Tu_Choi_Nham_FPR_Pct,Ty_Le_Bo_Lot_No_Xau_FNR_Pct
+1. Logistic Regression,4793,271,711,707,5.35,50.14
+2. Decision Tree - ID3,4810,254,492,926,5.02,34.7
+3. Decision Tree - CART,5015,49,392,1026,0.97,27.64
+4. Random Forest,5048,16,404,1014,0.32,28.49

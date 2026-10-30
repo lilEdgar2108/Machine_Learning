@@ -1,0 +1,5 @@
+﻿Mo_Hinh,Du_Lieu_Huan_Luyen,Cau_Hinh_Chinh,Thoi_Gian_Train_Giay,Thong_Tin_Cau_Truc
+1. Logistic Regression,X_train_logreg (19 cột chuẩn hóa Z-score),"L2 Regularization, C=1.0, solver='lbfgs', Threshold=0.5",0.0231,19 trọng số w + 1 hệ số chặn b = -1.5989
+2. Decision Tree - ID3 (Tự cài đặt),X_train_id3 (11 cột rời rạc hóa Quantile),"Entropy & Information Gain, đa nhánh, max_depth=4, min_samples_split=25",0.3323,"Nút gốc: loan_grade | Độ sâu=4, Số lá=370"
+3. Decision Tree - CART,X_train_tree (19 cột giữ nguyên đơn vị gốc),"criterion='gini', chia nhị phân, max_depth=10, min_samples_leaf=10",0.0591,"Độ sâu=10, Số nút lá=140"
+4. Random Forest,X_train_tree (19 cột giữ nguyên đơn vị gốc),"n_estimators=200, criterion='gini', max_features='sqrt', max_depth=12, min_samples_leaf=5, oob_score=True",0.7498,200 cây độc lập | OOB Score = 0.9320

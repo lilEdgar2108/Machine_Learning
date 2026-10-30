@@ -1,0 +1,6 @@
+﻿Buoc_Xu_Ly,So_Dong,Ghi_Chu
+1. Dữ liệu thô ban đầu,32581,Tải từ OpenML ID 43454
+2. Sau khi xóa dòng trùng lặp,32416,Đã xóa 165 dòng trùng hoàn toàn
+3. Sau khi lọc ngoại lai vô lý,32409,Đã lọc 7 dòng sai logic (tuổi > 100 hoặc thâm niên > 60)
+4. Tập Huấn luyện (Train - 80%),25927,"Tỷ lệ vỡ nợ (nhãn 1) = 21.87% (5,670 mẫu)"
+5. Tập Kiểm tra (Test - 20%),6482,"Tỷ lệ vỡ nợ (nhãn 1) = 21.88% (1,418 mẫu)"

@@ -1,0 +1,12 @@
+﻿Thu_Tu_Uu_Tien,Thuoc_Tinh,Entropy_Goc_H_S_bit,Information_Gain_bit,Entropy_Con_Lai_H_A_S_bit
+1,loan_grade,0.7578,0.1078,0.65
+2,loan_percent_income,0.7578,0.0758,0.682
+3,loan_int_rate,0.7578,0.0616,0.6962
+4,person_income,0.7578,0.0529,0.7049
+5,person_home_ownership,0.7578,0.0448,0.713
+6,cb_person_default_on_file,0.7578,0.019,0.7388
+7,loan_intent,0.7578,0.0111,0.7467
+8,loan_amnt,0.7578,0.0101,0.7477
+9,person_emp_length,0.7578,0.0067,0.7511
+10,person_age,0.7578,0.0009,0.7569
+11,cb_person_cred_hist_length,0.7578,0.0005,0.7573

@@ -1,0 +1,56 @@
+[Nút hỏi `loan_grade` | H=0.7578 bit | IG=0.1078 bit | n=25927]
+  ├── Nếu `loan_grade` = 'A':
+
+  │     [Nút hỏi `loan_percent_income` | H=0.4697 bit | IG=0.0832 bit | n=8530]
+  │       ├── Nếu `loan_percent_income` = '1_Thap': -> [Nhánh tiếp theo hỏi `person_income` (IG=0.0128) | P(Vỡ nợ)=3.8% | n=2744 ...]
+  │       ├── Nếu `loan_percent_income` = '2_Trung_binh': -> [Nhánh tiếp theo hỏi `person_income` (IG=0.0152) | P(Vỡ nợ)=3.4% | n=2388 ...]
+  │       ├── Nếu `loan_percent_income` = '3_Kha_cao': -> [Nhánh tiếp theo hỏi `loan_amnt` (IG=0.0594) | P(Vỡ nợ)=7.6% | n=1873 ...]
+  │       ├── Nếu `loan_percent_income` = '4_Cao': -> [Nhánh tiếp theo hỏi `person_home_ownership` (IG=0.1858) | P(Vỡ nợ)=34.6% | n=1525 ...]
+  ├── Nếu `loan_grade` = 'B':
+
+  │     [Nút hỏi `loan_percent_income` | H=0.6449 bit | IG=0.0878 bit | n=8281]
+  │       ├── Nếu `loan_percent_income` = '1_Thap': -> [Nhánh tiếp theo hỏi `loan_intent` (IG=0.0245) | P(Vỡ nợ)=7.6% | n=2189 ...]
+  │       ├── Nếu `loan_percent_income` = '2_Trung_binh': -> [Nhánh tiếp theo hỏi `loan_intent` (IG=0.0282) | P(Vỡ nợ)=6.9% | n=2009 ...]
+  │       ├── Nếu `loan_percent_income` = '3_Kha_cao': -> [Nhánh tiếp theo hỏi `loan_amnt` (IG=0.0580) | P(Vỡ nợ)=10.6% | n=1911 ...]
+  │       ├── Nếu `loan_percent_income` = '4_Cao': -> [Nhánh tiếp theo hỏi `person_home_ownership` (IG=0.2008) | P(Vỡ nợ)=39.3% | n=2172 ...]
+  ├── Nếu `loan_grade` = 'C':
+
+  │     [Nút hỏi `loan_percent_income` | H=0.7283 bit | IG=0.0774 bit | n=5221]
+  │       ├── Nếu `loan_percent_income` = '1_Thap': -> [Nhánh tiếp theo hỏi `person_income` (IG=0.0124) | P(Vỡ nợ)=11.1% | n=1446 ...]
+  │       ├── Nếu `loan_percent_income` = '2_Trung_binh': -> [Nhánh tiếp theo hỏi `person_income` (IG=0.0185) | P(Vỡ nợ)=11.8% | n=1300 ...]
+  │       ├── Nếu `loan_percent_income` = '3_Kha_cao': -> [Nhánh tiếp theo hỏi `loan_amnt` (IG=0.0479) | P(Vỡ nợ)=15.7% | n=1285 ...]
+  │       ├── Nếu `loan_percent_income` = '4_Cao': -> [Nhánh tiếp theo hỏi `person_home_ownership` (IG=0.1223) | P(Vỡ nợ)=45.8% | n=1190 ...]
+  ├── Nếu `loan_grade` = 'D':
+
+  │     [Nút hỏi `loan_intent` | H=0.9762 bit | IG=0.1873 bit | n=2890]
+  │       ├── Nếu `loan_intent` = 'DEBTCONSOLIDATION': -> [Nhánh tiếp theo hỏi `person_home_ownership` (IG=0.3674) | P(Vỡ nợ)=93.0% | n=483 ...]
+  │       ├── Nếu `loan_intent` = 'EDUCATION': -> [Nhánh tiếp theo hỏi `person_home_ownership` (IG=0.1606) | P(Vỡ nợ)=33.9% | n=514 ...]
+  │       ├── Nếu `loan_intent` = 'HOMEIMPROVEMENT': -> [Nhánh tiếp theo hỏi `person_income` (IG=0.2376) | P(Vỡ nợ)=54.6% | n=377 ...]
+  │       ├── Nếu `loan_intent` = 'MEDICAL': -> [Nhánh tiếp theo hỏi `person_home_ownership` (IG=0.1756) | P(Vỡ nợ)=87.8% | n=525 ...]
+  │       ├── Nếu `loan_intent` = 'PERSONAL': -> [Nhánh tiếp theo hỏi `person_emp_length` (IG=0.2005) | P(Vỡ nợ)=43.7% | n=520 ...]
+  │       ├── Nếu `loan_intent` = 'VENTURE': -> [Nhánh tiếp theo hỏi `person_home_ownership` (IG=0.1888) | P(Vỡ nợ)=40.3% | n=471 ...]
+  ├── Nếu `loan_grade` = 'E':
+
+  │     [Nút hỏi `loan_intent` | H=0.9302 bit | IG=0.2240 bit | n=755]
+  │       ├── Nếu `loan_intent` = 'DEBTCONSOLIDATION': -> [LÁ: 1 - VỠ NỢ | P(Vỡ nợ)=100.0% | n=120]
+  │       ├── Nếu `loan_intent` = 'EDUCATION': -> [Nhánh tiếp theo hỏi `person_home_ownership` (IG=0.1499) | P(Vỡ nợ)=46.2% | n=143 ...]
+  │       ├── Nếu `loan_intent` = 'HOMEIMPROVEMENT': -> [Nhánh tiếp theo hỏi `person_income` (IG=0.2689) | P(Vỡ nợ)=52.3% | n=109 ...]
+  │       ├── Nếu `loan_intent` = 'MEDICAL': -> [Nhánh tiếp theo hỏi `person_emp_length` (IG=0.0699) | P(Vỡ nợ)=96.8% | n=126 ...]
+  │       ├── Nếu `loan_intent` = 'PERSONAL': -> [Nhánh tiếp theo hỏi `person_home_ownership` (IG=0.2036) | P(Vỡ nợ)=47.0% | n=115 ...]
+  │       ├── Nếu `loan_intent` = 'VENTURE': -> [Nhánh tiếp theo hỏi `person_home_ownership` (IG=0.1759) | P(Vỡ nợ)=52.8% | n=142 ...]
+  ├── Nếu `loan_grade` = 'F':
+
+  │     [Nút hỏi `loan_intent` | H=0.8762 bit | IG=0.2176 bit | n=196]
+  │       ├── Nếu `loan_intent` = 'DEBTCONSOLIDATION': -> [LÁ: 1 - VỠ NỢ | P(Vỡ nợ)=100.0% | n=34]
+  │       ├── Nếu `loan_intent` = 'EDUCATION': -> [Nhánh tiếp theo hỏi `person_emp_length` (IG=0.2448) | P(Vỡ nợ)=60.0% | n=40 ...]
+  │       ├── Nếu `loan_intent` = 'HOMEIMPROVEMENT': -> [Nhánh tiếp theo hỏi `person_income` (IG=0.2568) | P(Vỡ nợ)=67.9% | n=28 ...]
+  │       ├── Nếu `loan_intent` = 'MEDICAL': -> [Nhánh tiếp theo hỏi `person_emp_length` (IG=0.1254) | P(Vỡ nợ)=94.9% | n=39 ...]
+  │       ├── Nếu `loan_intent` = 'PERSONAL': -> [LÁ: 1 - VỠ NỢ | P(Vỡ nợ)=52.2% | n=23]
+  │       ├── Nếu `loan_intent` = 'VENTURE': -> [Nhánh tiếp theo hỏi `person_age` (IG=0.1438) | P(Vỡ nợ)=37.5% | n=32 ...]
+  ├── Nếu `loan_grade` = 'G':
+
+  │     [Nút hỏi `loan_percent_income` | H=0.1330 bit | IG=0.0729 bit | n=54]
+  │       ├── Nếu `loan_percent_income` = '1_Thap': -> [LÁ: 1 - VỠ NỢ | P(Vỡ nợ)=75.0% | n=4]
+  │       ├── Nếu `loan_percent_income` = '2_Trung_binh': -> [LÁ: 1 - VỠ NỢ | P(Vỡ nợ)=100.0% | n=7]
+  │       ├── Nếu `loan_percent_income` = '3_Kha_cao': -> [LÁ: 1 - VỠ NỢ | P(Vỡ nợ)=100.0% | n=14]
+  │       ├── Nếu `loan_percent_income` = '4_Cao': -> [LÁ: 1 - VỠ NỢ | P(Vỡ nợ)=100.0% | n=29]

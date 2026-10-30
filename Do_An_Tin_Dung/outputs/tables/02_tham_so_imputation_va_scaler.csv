@@ -1,0 +1,8 @@
+﻿Bien_So,Median_Impute_Train,Mean_Scaler_Train,Std_Scaler_Train
+person_age,26.0,27.6919,6.1643
+person_income,55000.0,65801.8308,52538.3128
+person_emp_length,4.0,4.7643,3.9686
+loan_amnt,8000.0,9581.8886,6293.5796
+loan_int_rate,10.99,11.0286,3.0836
+loan_percent_income,0.15,0.1703,0.1067
+cb_person_cred_hist_length,4.0,5.7911,4.0401

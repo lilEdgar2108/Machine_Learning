@@ -1,0 +1,13 @@
+﻿Ten_Cot,Phan_Loai_Bien,So_Gia_Tri_Thieu,Ty_Le_Thieu_Pct,So_Gia_Tri_Duy_Nhat,Y_Nghia_Thuc_Te
+person_age,Biến số liên tục,0,0.0,58,Tuổi của khách hàng tại thời điểm nộp hồ sơ vay (năm)
+person_income,Biến số liên tục,0,0.0,4295,Tổng thu nhập hàng năm của khách hàng (USD)
+person_emp_length,Biến số liên tục,895,2.75,36,Số năm kinh nghiệm/thâm niên làm việc của khách hàng (năm)
+loan_amnt,Biến số liên tục,0,0.0,753,Số tiền gốc khách hàng đăng ký vay (USD)
+loan_int_rate,Biến số liên tục,3116,9.56,348,Lãi suất áp dụng cho khoản vay (%/năm)
+loan_percent_income,Biến số liên tục,0,0.0,77,Tỷ lệ giữa số tiền vay trên thu nhập hàng năm của khách hàng
+cb_person_cred_hist_length,Biến số liên tục,0,0.0,29,Số năm khách hàng có lịch sử giao dịch tín dụng trên hệ thống (năm)
+person_home_ownership,Biến phân loại (Định danh),0,0.0,4,"Tình trạng nhà ở: RENT (Thuê), MORTGAGE (Thế chấp), OWN (Sở hữu), OTHER (Khác)"
+loan_intent,Biến phân loại (Định danh),0,0.0,6,"Mục đích vay: EDUCATION, MEDICAL, VENTURE, PERSONAL, DEBTCONSOLIDATION, HOMEIMPROVEMENT"
+loan_grade,Biến phân loại (Thứ tự),0,0.0,7,Hạng tín dụng do tổ chức tài chính xếp loại từ A (tốt nhất) đến G (rủi ro cao nhất)
+cb_person_default_on_file,Biến phân loại (Nhị phân),0,0.0,2,"Khách hàng đã từng bị ghi nhận vỡ nợ trong lịch sử tín dụng chưa (Y = Có, N = Chưa)"
+loan_status,Biến mục tiêu (Nhị phân),0,0.0,2,"Trạng thái khoản vay: 0 = Trả nợ tốt (Non-default), 1 = Vỡ nợ (Default)"

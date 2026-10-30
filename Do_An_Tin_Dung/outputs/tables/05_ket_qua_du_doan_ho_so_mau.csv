@@ -1,0 +1,13 @@
+﻿Ho_So_Khach_Hang,Mo_Hinh,Nhan_Du_Doan,Xac_Suat_Vo_No_Pct,Muc_Do_Rui_Ro,Khuyen_Nghi_Tin_Dung
+"Hồ sơ 1: Khách hàng tốt (Thu nhập ổn định, sở hữu nhà, hạng A)",Logistic Regression,0,0.21%,Rủi ro THẤP,0 - TRẢ NỢ TỐT (Đề xuất: DUYỆT KHOẢN VAY)
+"Hồ sơ 1: Khách hàng tốt (Thu nhập ổn định, sở hữu nhà, hạng A)",Decision Tree - ID3,0,1.31%,Rủi ro THẤP,0 - TRẢ NỢ TỐT (Đề xuất: DUYỆT KHOẢN VAY)
+"Hồ sơ 1: Khách hàng tốt (Thu nhập ổn định, sở hữu nhà, hạng A)",Decision Tree - CART,0,0.87%,Rủi ro THẤP,0 - TRẢ NỢ TỐT (Đề xuất: DUYỆT KHOẢN VAY)
+"Hồ sơ 1: Khách hàng tốt (Thu nhập ổn định, sở hữu nhà, hạng A)",Random Forest,0,0.63%,Rủi ro THẤP,0 - TRẢ NỢ TỐT (Đề xuất: DUYỆT KHOẢN VAY)
+"Hồ sơ 2: Khách hàng rủi ro cao (Nhà thuê, vay 42% thu nhập để đảo nợ, hạng E)",Logistic Regression,1,99.14%,Rủi ro CAO,1 - NGUY CƠ VỠ NỢ (Đề xuất: TỪ CHỐI / YÊU CẦU TÀI SẢN ĐẢM BẢO)
+"Hồ sơ 2: Khách hàng rủi ro cao (Nhà thuê, vay 42% thu nhập để đảo nợ, hạng E)",Decision Tree - ID3,1,100.00%,Rủi ro CAO,1 - NGUY CƠ VỠ NỢ (Đề xuất: TỪ CHỐI / YÊU CẦU TÀI SẢN ĐẢM BẢO)
+"Hồ sơ 2: Khách hàng rủi ro cao (Nhà thuê, vay 42% thu nhập để đảo nợ, hạng E)",Decision Tree - CART,1,100.00%,Rủi ro CAO,1 - NGUY CƠ VỠ NỢ (Đề xuất: TỪ CHỐI / YÊU CẦU TÀI SẢN ĐẢM BẢO)
+"Hồ sơ 2: Khách hàng rủi ro cao (Nhà thuê, vay 42% thu nhập để đảo nợ, hạng E)",Random Forest,1,98.71%,Rủi ro CAO,1 - NGUY CƠ VỠ NỢ (Đề xuất: TỪ CHỐI / YÊU CẦU TÀI SẢN ĐẢM BẢO)
+Hồ sơ 3: Hồ sơ khuyết thông tin lãi suất & năm đi làm (Kiểm chứng tự động Impute),Logistic Regression,0,15.12%,Rủi ro THẤP,0 - TRẢ NỢ TỐT (Đề xuất: DUYỆT KHOẢN VAY)
+Hồ sơ 3: Hồ sơ khuyết thông tin lãi suất & năm đi làm (Kiểm chứng tự động Impute),Decision Tree - ID3,0,5.36%,Rủi ro THẤP,0 - TRẢ NỢ TỐT (Đề xuất: DUYỆT KHOẢN VAY)
+Hồ sơ 3: Hồ sơ khuyết thông tin lãi suất & năm đi làm (Kiểm chứng tự động Impute),Decision Tree - CART,0,5.50%,Rủi ro THẤP,0 - TRẢ NỢ TỐT (Đề xuất: DUYỆT KHOẢN VAY)
+Hồ sơ 3: Hồ sơ khuyết thông tin lãi suất & năm đi làm (Kiểm chứng tự động Impute),Random Forest,0,9.86%,Rủi ro THẤP,0 - TRẢ NỢ TỐT (Đề xuất: DUYỆT KHOẢN VAY)
