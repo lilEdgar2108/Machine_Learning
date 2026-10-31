@@ -5,7 +5,7 @@ Dựa trên:
 2. Thông tin nhóm sinh viên thực hiện từ `BTL_ML.docx`:
    - Vũ Đức Hải Nam (2451261036)
    - Nguyễn Ngọc Thành (2451261059)
-   - Trần Thiên Vũ
+   - Trần Thiên Vũ (2451261069)
    - Giảng viên hướng dẫn: Thầy Tạ Quang Chiểu
 3. Toàn bộ bảng dữ liệu thực nghiệm từ `outputs/tables/` và 12 biểu đồ PNG từ `outputs/figures/`.
 """
@@ -215,7 +215,7 @@ def build_report():
 
     add_centered_line(
         doc,
-        "VŨ ĐỨC HẢI NAM – 2451261036\nNGUYỄN NGỌC THÀNH – 2451261059\nTRẦN THIÊN VŨ",
+        "VŨ ĐỨC HẢI NAM – 2451261036\nNGUYỄN NGỌC THÀNH – 2451261059\nTRẦN THIÊN VŨ – 2451261069",
         size_pt=14, bold=False, uppercase=True, space_before_pt=12, space_after_pt=28, line_spacing=1.45
     )
 
@@ -242,7 +242,7 @@ def build_report():
 
     add_centered_line(
         doc,
-        "VŨ ĐỨC HẢI NAM – 2451261036\nNGUYỄN NGỌC THÀNH – 2451261059\nTRẦN THIÊN VŨ",
+        "VŨ ĐỨC HẢI NAM – 2451261036\nNGUYỄN NGỌC THÀNH – 2451261059\nTRẦN THIÊN VŨ – 2451261069",
         size_pt=14, bold=False, uppercase=True, space_before_pt=18, space_after_pt=32, line_spacing=1.45
     )
 
@@ -301,7 +301,7 @@ def build_report():
         ["2", "Nguyễn Ngọc Thành", "2451261059",
          "Nghiên cứu cơ sở toán học, lập trình lớp `ID3DecisionTree` đa nhánh từ đầu, khảo sát 5-Fold CV chống quá khớp và huấn luyện 4 mô hình (`src/id3_tu_cai_dat.py`, `src/03`).",
          "Chương 3\n(Mục 3.1 – 3.4)"],
-        ["3", "Trần Thiên Vũ", "....................",
+        ["3", "Trần Thiên Vũ", "2451261069",
          "Đánh giá so sánh 4 mô hình trên tập kiểm tra độc lập (Confusion Matrix, FP/FN, Precision, Recall, F1, ROC-AUC), xây dựng hàm `predict_loan_status` và tổng hợp báo cáo (`src/04`, `src/05`).",
          "Mục 3.5,\nChương 4 &\nKết luận"],
     ]

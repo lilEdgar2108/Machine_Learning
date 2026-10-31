@@ -6,7 +6,7 @@
 - **Nhóm thực hiện:**
   1. **Vũ Đức Hải Nam (`2451261036`)** – Phụ trách Dataset, EDA, Tiền xử lý chống Data Leakage & Quản lý GitHub (Chương 1 & 2)
   2. **Nguyễn Ngọc Thành (`2451261059`)** – Phụ trách Cơ sở lý thuyết & Huấn luyện 4 thuật toán: Logistic Regression, ID3, CART, Random Forest (Chương 3: 3.1 – 3.4)
-  3. **Trần Thiên Vũ** – Phụ trách Đánh giá thực nghiệm Mục 3.5, Hàm dự đoán khách hàng mới & Tổng hợp báo cáo (Mục 3.5, Chương 4 & Kết luận)
+  3. **Trần Thiên Vũ (`2451261069`)** – Phụ trách Đánh giá thực nghiệm Mục 3.5, Hàm dự đoán khách hàng mới & Tổng hợp báo cáo (Mục 3.5, Chương 4 & Kết luận)
 
 ---
 

@@ -10,7 +10,7 @@
 ## 2. Nhóm thực hiện & Phân công chính
 1. **Vũ Đức Hải Nam (`2451261036` – GitHub Lead):** Phụ trách Dataset, Phân tích khám phá dữ liệu (EDA), Tiền xử lý dữ liệu chống Data Leakage, Rời rạc hóa cho ID3 (**Chương 1 & Chương 2**).
 2. **Nguyễn Ngọc Thành (`2451261059`):** Phụ trách Cơ sở lý thuyết, công thức toán học và huấn luyện 4 thuật toán bắt buộc (**Chương 3: Mục 3.1 – 3.4**).
-3. **Trần Thiên Vũ:** Phụ trách Đánh giá thực nghiệm 8 tiêu chí, xây dựng hàm `predict_loan_status(customer_data)` và tổng hợp báo cáo Word (**Mục 3.5, Chương 4 & Kết luận**).
+3. **Trần Thiên Vũ (`2451261069`):** Phụ trách Đánh giá thực nghiệm 8 tiêu chí, xây dựng hàm `predict_loan_status(customer_data)` và tổng hợp báo cáo Word (**Mục 3.5, Chương 4 & Kết luận**).
 
 ## 3. Dataset đã chốt
 - **Tên Dataset:** `Credit Risk Dataset` (OpenML ID: `43454`).
