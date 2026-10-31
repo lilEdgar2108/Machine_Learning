@@ -1,12 +1,12 @@
 # Đồ Án Học Máy: Dự Đoán Khả Năng Trả Nợ Của Khách Hàng Vay Vốn (Credit Default Prediction)
 
 - **Môn học:** Học máy (Machine Learning)
-- **Giảng viên hướng dẫn:** Thầy Chiểu
+- **Giảng viên hướng dẫn:** Thầy Tạ Quang Chiểu
 - **Đơn vị:** Khoa Công nghệ thông tin – Trường Đại học Thủy Lợi
 - **Nhóm thực hiện:**
-  1. **Hải Nam** – Phụ trách Dataset, EDA, Tiền xử lý chống Data Leakage & Quản lý GitHub (Chương I & II)
-  2. **Thành** – Phụ trách Cơ sở lý thuyết & Huấn luyện 4 thuật toán: Logistic Regression, ID3, CART, Random Forest (Chương III: 3.1 – 3.4)
-  3. **Vũ** – Phụ trách Đánh giá thực nghiệm Phần 3.5, Hàm dự đoán khách hàng mới & Tổng hợp báo cáo (Phần 3.5, Chương IV & Kết luận)
+  1. **Vũ Đức Hải Nam (`2451261036`)** – Phụ trách Dataset, EDA, Tiền xử lý chống Data Leakage & Quản lý GitHub (Chương 1 & 2)
+  2. **Nguyễn Ngọc Thành (`2451261059`)** – Phụ trách Cơ sở lý thuyết & Huấn luyện 4 thuật toán: Logistic Regression, ID3, CART, Random Forest (Chương 3: 3.1 – 3.4)
+  3. **Trần Thiên Vũ** – Phụ trách Đánh giá thực nghiệm Mục 3.5, Hàm dự đoán khách hàng mới & Tổng hợp báo cáo (Mục 3.5, Chương 4 & Kết luận)
 
 ---
 

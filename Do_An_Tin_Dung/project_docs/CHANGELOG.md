@@ -32,4 +32,10 @@
 - Báo cáo định dạng chuẩn đại học (Times New Roman 13pt, giãn dòng 1.3), tự động nạp trực tiếp 13 bảng dữ liệu CSV thật và nhúng toàn bộ 12 biểu đồ PNG độ nét cao, đảm bảo độ khớp 100% giữa Code – Bảng số liệu – Báo cáo.
 - Sẵn sàng 100% cho Chặng 5 (`ACTIVATE DEFENSE MODE`).
 
+## [v1.1.0] – 2026-10-31 (Chuẩn hóa Báo cáo Word 100% theo Mẫu quy định ĐH Thủy Lợi & TLTK IEEE)
+- Kế thừa trực tiếp file mẫu `Huong dan trinh bay DATN (26-2-2020).docx` của Thầy Tạ Quang Chiểu (`report/template/Huong_dan_trinh_bay_DATN_TLU.docx` + `logo_dhtl.png`) và thông tin sinh viên từ `BTL_ML.docx`.
+- Chuẩn hóa đầy đủ 3 Section: Bìa chính + Bìa phụ + Tờ phân công (không số trang) -> Mở đầu (`LỜI CAM ĐOAN`, `LỜI CÁM ƠN`, `MỤC LỤC`, `DANH MỤC CÁC HÌNH ẢNH`, `DANH MỤC BẢNG BIỂU`, `DANH MỤC TỪ VIẾT TẮT` đánh số `i, ii, iii...`) -> Nội dung (`CHƯƠNG 1`..`CHƯƠNG 4`, `KẾT LUẬN`, `TÀI LIỆU THAM KHẢO`, `PHỤ LỤC` đánh số `1, 2, 3...`).
+- Soạn thảo toàn bộ 12 công thức toán học bằng Word Equation gốc (`<m:oMath>`) kèm số hiệu `(x-y)` sát lề phải và chuyển đổi toàn bộ trích dẫn `[1]`..`[9]` sang chuẩn IEEE Reference Order.
+
+
 
