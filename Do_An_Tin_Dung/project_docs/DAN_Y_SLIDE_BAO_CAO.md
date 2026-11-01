@@ -378,3 +378,4 @@
 1. **Không copy nguyên đoạn văn dài lên Slide:** Mỗi slide chỉ để tối đa **4–6 gạch đầu dòng**, chữ cỡ **18–24 pt**, công thức toán viết to, rõ ràng.
 2. **Tận dụng tối đa 12 biểu đồ `.png` (`dpi=180`) trong `Do_An_Tin_Dung/outputs/figures/`:** Toàn bộ biểu đồ đã có sẵn tiêu đề tiếng Việt, nhãn trục rõ nét và màu sắc đồng bộ.
 3. **Thống nhất màu sắc nhấn mạnh trên bảng số liệu:** Tô đậm màu xanh lá hoặc xanh dương đậm cho dòng **Random Forest** và các con số tốt nhất (`93,52%`, `98,45%`, `0,8284`, `0,9327`, `FP = 16`).
+
