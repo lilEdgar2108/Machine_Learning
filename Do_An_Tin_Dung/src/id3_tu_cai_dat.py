@@ -284,3 +284,40 @@ class ID3DecisionTree:
             _fmt(self.tree_, indent="", depth=0)
         return "\n".join(lines).strip()
 
+
+if __name__ == "__main__":
+    import os
+
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    train_x_path = os.path.join(base_dir, "data", "processed", "X_train_id3.csv")
+    test_x_path = os.path.join(base_dir, "data", "processed", "X_test_id3.csv")
+    train_y_path = os.path.join(base_dir, "data", "processed", "y_train.csv")
+    test_y_path = os.path.join(base_dir, "data", "processed", "y_test.csv")
+
+    print("=" * 72)
+    print("KIỂM THỬ TRỰC TIẾP MODULE CÂY QUYẾT ĐỊNH ĐA NHÁNH ID3 TỰ CÀI ĐẶT")
+    print("=" * 72)
+    if os.path.exists(train_x_path) and os.path.exists(train_y_path):
+        X_tr = pd.read_csv(train_x_path)
+        y_tr = pd.read_csv(train_y_path)["loan_status"].values
+        X_te = pd.read_csv(test_x_path)
+        y_te = pd.read_csv(test_y_path)["loan_status"].values
+
+        id3_demo = ID3DecisionTree(max_depth=4, min_samples_split=25)
+        id3_demo.fit(X_tr, y_tr)
+        stats = id3_demo.thong_ke_cau_truc_cay()
+        y_pred_te = id3_demo.predict(X_te)
+        acc_te = float(np.mean(y_pred_te == y_te))
+
+        print(f"- Entropy gốc H(S) trên tập Train (N={len(y_tr)}): {id3_demo.tinh_entropy(y_tr):.4f} bit")
+        print("- Top 5 thuộc tính có Information Gain cao nhất tại Nút gốc:")
+        for rank, (feat_name, ig_val) in enumerate(list(id3_demo.root_gains_.items())[:5], start=1):
+            print(f"    {rank}. {feat_name:28s}: IG = {ig_val:.4f} bit")
+        print(f"- Cấu trúc cây ID3 (max_depth=4): Tổng số nút = {stats['total_nodes']}, Số nút lá = {stats['n_leaves']}")
+        print(f"- Độ chính xác trên tập Test độc lập (N={len(y_te)}): {acc_te*100:.2f}%")
+        print("\n- Sơ đồ nhánh đầu tiên của cây ID3:")
+        print(id3_demo.xuat_chuoi_cay(max_print_depth=1))
+    else:
+        print("Hãy chạy `01_tai_va_kham_pha_du_lieu.py` và `02_tien_xu_ly_du_lieu.py` trước để tạo dữ liệu.")
+
+
